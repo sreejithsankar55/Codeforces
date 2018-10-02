@@ -6,7 +6,7 @@
 using namespace std;
 int main()
 {
-    ll n;
+    long long n;
     cin>>n;
     if(n==1)
     {
