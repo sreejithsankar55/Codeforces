@@ -16,8 +16,8 @@ void dfs(int v, int c) {
 
     visited[v] = true;
     for (auto it = graph[v].begin(); it != graph[v].end(); it++) {
-        if (!visited[ * it])
-            dfs( * it, c + 1);
+        if (!visited[*it])
+            dfs(*it, c + 1);
     }
     cc = max(cc, c);
 }
