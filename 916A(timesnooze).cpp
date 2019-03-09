@@ -1,5 +1,5 @@
 /* (^-^)Sree_jith__S(^+^)*/
-
+/*The code decrements the time, if you want to funciton like a normal time keep x=1 */
 #include <bits/stdc++.h>
 using namespace std;
 #define pb 	push_back
