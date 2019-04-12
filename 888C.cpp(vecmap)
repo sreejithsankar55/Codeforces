@@ -22,16 +22,8 @@ int main()
     ll n=s.size();
     s='$'+s;
     for ( ll i = 1 ; i <= n ; i++ )
-    {
-        if (m.find(s[i]) != m.end()) {
             m[s[i]].pb(i);
-        }
-        else {
-            vector<ll>vec;
-            vec.pb(i);
-            m[s[i]] = vec;
-        }
-    }
+            
     map < char , vector < ll >  >::iterator it;
     for ( it=m.begin() ; it!= m.end() ; it++ )
     {
