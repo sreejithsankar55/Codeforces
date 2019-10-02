@@ -6,25 +6,25 @@
 using namespace std;
 int main()
 {
-    long long n;
-    cin>>n;
-    if(n==1)
+    ll n;
+    cin >> n;
+    if(n == 1)
     {
-        cout<<"Yes";
+        cout << "Yes";
         return 0;
     }
     string s;
-    cin>>s;
-    map < char, ll > ma;
-    for ( ll i = 0 ; i < n ; i++)
+    cin >> s;
+    map < char, ll > mp;
+    for (ll i = 0 ; i < n ; i++)
     {
-        ma[s[i]]++;
-        if(ma[s[i]]>=2)
+        mp[s[i]]++;
+        if(ma[s[i]] >= 2)
         {
-            cout<<"Yes";
+            cout << "Yes";
             return 0;
         }
     }
-    cout<<"No";
+    cout << "No";
     return 0;
 }
