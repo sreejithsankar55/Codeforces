@@ -25,18 +25,18 @@ int main()
 
     }
     cin>>n>>m;
-    if(m==0)
+    if(m == 0)
     {
         cout<<n<<" "<<n;
         return 0;
     }
 
-    c=(n*(n-1));
-    c/=2;
-    if(m>=c)
-        min=0;
+    c = (n*(n-1));
+    c /= 2;
+    if(m >= c)
+        min = 0;
     else
-        min=n-(2*m);
+        min = n - (2*m);
 
     vector < ll >::iterator upper,lower;
 
@@ -46,17 +46,17 @@ int main()
     d=lower-v.begin();
     if(t!=d)
     {
-        n-=(d+2);
+        n-=(d + 2);
     }
     else
         n-=(t+2);
-    cerr<<t<<" "<<d<<endl;
+    //cerr<<t<<" "<<d<<endl;
     if(n>0)
-        max=n;
+        max = n;
     if(max<0)
-        max=0;
+        max = 0;
     if(min<0)
-        min=0;
+        min = 0;
     cout<<min<<" "<<max;
     return 0;
 }
