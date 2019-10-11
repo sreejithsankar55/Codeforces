@@ -1,6 +1,6 @@
 /* (: Sreejith Codes :) */
 
-#include    <bits/stdc++.h>
+#include <bits/stdc++.h>
 
 #define 	ll 		long long
 #define 	ld 		long double
