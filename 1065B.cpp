@@ -21,8 +21,6 @@ int main()
     {
         c=(i*(i-1))/2;
         v.pb(c);
-        //cout<<c<<" ";
-
     }
     cin>>n>>m;
     if(m == 0)
