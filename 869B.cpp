@@ -22,7 +22,6 @@ int main()
         c*=(i%10);
         c%=10;
         if(c==0)
-           
     }
 
     cout<<c;
