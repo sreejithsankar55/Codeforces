@@ -24,7 +24,7 @@ int main()
 		if((x+y)>mi)
 			mi=x+y;
 	}
-	
+	cout<<mi;
 	
 	return 0;
 }
