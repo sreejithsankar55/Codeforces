@@ -32,7 +32,7 @@ int main()
 		
 		for(ll i = l ; i <  r ; i+=2)
 		{
-			cout<<i<<""<<(i+1)<<endl;
+			cout<<i<<" "<<(i+1)<<endl;
 		}
 	} 
 	
