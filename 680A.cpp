@@ -11,7 +11,7 @@ int main()
     for(ll i = 0 ; i < 5 ; i++)
     {
         cin>>b;
-        s+=b;
+        s=s+b;
         ma[b]++;
     }
     map < ll , ll >::iterator it;
