@@ -45,7 +45,7 @@ int main(){
 	loop(i,0,s-2)
 		op=(op*10);
 	
-	c=c/op;
+	c/=op;
 	c--;
 	loop(i,0,s-2)
 		c=(c*10)+9;
