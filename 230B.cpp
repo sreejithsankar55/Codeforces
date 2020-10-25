@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+using namespace std;
 #define ll long long
 #define ld long double
 bool isPrime(ll n)
@@ -16,7 +17,7 @@ bool isPrime(ll n)
 	
 	return true;
 }	
-using namespace std;
+
 int main()
 {   ll t;
 	cin>>t;
