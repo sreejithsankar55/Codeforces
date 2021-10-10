@@ -69,9 +69,11 @@ int main()
                 c++;
         }
     }
-    if(c==(n*n))
+    if(c==(n*n)){
         cout<<"YES"<<endl;
-    else
+    }
+    else{
         cout<<"NO"<<endl;
+    }
     return 0;
 }
