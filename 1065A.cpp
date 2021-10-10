@@ -26,11 +26,7 @@ int main()
 		res = (s/ru) * b;
 		res+=p;
 		res+=((s%ru)/c);
-		
-		
-		cout<<res<<endl;
-		
+		cout<<res<<"\n";	
 	}
-	
 	return 0;
 }
