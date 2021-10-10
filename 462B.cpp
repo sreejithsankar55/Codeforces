@@ -29,7 +29,6 @@ int main()
     }
     sort(v.begin(),v.end(),greater < ll >());
     v1=v;
-
     for( ll i = 0 ; i < v.size() ; i++)
     {
         ll c = v[i];
@@ -52,6 +51,5 @@ int main()
         su += it->ss * it->ss;
     }
     cout<<su;
-
     return 0;
 }
