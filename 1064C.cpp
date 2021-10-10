@@ -16,7 +16,6 @@ int main()
 	cin>>n;
 	string s;
 	cin>>s;
-	
 	map < char , ll > ma;
 	for(ll i = 0 ; i < n;i++)
 	{
@@ -30,7 +29,5 @@ int main()
 			cout<<it->ff;
 		}
 	}
-	
-
 	return 0;
 }
