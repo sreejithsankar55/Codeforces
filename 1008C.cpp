@@ -30,7 +30,7 @@ int main()
 		}
 		j++;
 	}
-	cout<<c;
+	cout<<c<<endl;
 	
 		return 0;
 }  
