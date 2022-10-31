@@ -7,7 +7,6 @@
 #define gl(a) getline(cin,a)
 #define ss second
 #define ll long long
-#define ld long double
 using namespace std;
 
 int main()
