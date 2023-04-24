@@ -34,5 +34,6 @@ int main()
 
         cout<<act<<" "<<b-v1[act-1]<<endl;
     }
+    
     return 0;
 }
